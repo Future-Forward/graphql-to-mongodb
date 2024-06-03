@@ -2,7 +2,8 @@
   "name": "graphql-to-mongodb-ffwd",
   "version": "1.6.6",
   "description": "Generic run-time generation of input filter types for existing graphql types, and parsing of said input types into MongoDB queries. Fork from Soluto/graphql-to-mongodb.",
-  "main": "index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc -p .",
     "publish-now": "npm run build && npm publish",
